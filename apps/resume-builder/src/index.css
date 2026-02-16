@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Print: hide nav, export UI, and page chrome. Resume only. */
+@media print {
+  body,
+  #root,
+  main,
+  .print-resume-wrapper {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .print-only-resume {
+    box-shadow: none !important;
+    max-width: 100% !important;
+  }
+
+  .print-resume-wrapper {
+    padding: 0 !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+  }
+
+  .print-page {
+    page-break-inside: avoid;
+  }
+
+  /* Ensure no colored accents, white only */
+  a {
+    color: #000 !important;
+  }
+
+}
