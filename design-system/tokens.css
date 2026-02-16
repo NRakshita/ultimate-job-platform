@@ -1,0 +1,55 @@
+/**
+ * KodNest Premium Build System — Design Tokens
+ * Single source of truth. Do not use arbitrary values elsewhere.
+ */
+
+:root {
+  /* ——— Color (max 4 in use) ——— */
+  --kn-background: #F7F6F3;
+  --kn-text: #111111;
+  --kn-accent: #8B0000;
+  --kn-success: #4A5D4A;
+  --kn-warning: #8B7355;
+
+  /* ——— Typography ——— */
+  --kn-font-heading: "Source Serif 4", Georgia, serif;
+  --kn-font-body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+
+  --kn-size-body: 17px;
+  --kn-size-body-min: 16px;
+  --kn-size-body-max: 18px;
+  --kn-line-height-body: 1.65;
+  --kn-line-height-body-loose: 1.8;
+  --kn-measure: 720px;
+
+  --kn-size-h1: 2.25rem;
+  --kn-size-h2: 1.75rem;
+  --kn-size-h3: 1.375rem;
+  --kn-weight-heading: 600;
+  --kn-weight-body: 400;
+  --kn-letter-spacing-heading: 0.02em;
+
+  /* ——— Spacing scale (only these values) ——— */
+  --kn-space-xs: 8px;
+  --kn-space-sm: 16px;
+  --kn-space-md: 24px;
+  --kn-space-lg: 40px;
+  --kn-space-xl: 64px;
+
+  /* ——— Layout ——— */
+  --kn-workspace-ratio: 70%;
+  --kn-panel-ratio: 30%;
+  --kn-radius: 6px;
+  --kn-border: 1px solid rgba(17, 17, 17, 0.12);
+  --kn-border-focus: 1px solid var(--kn-accent);
+
+  /* ——— Interaction ——— */
+  --kn-duration: 180ms;
+  --kn-ease: ease-in-out;
+
+  /* ——— Components ——— */
+  --kn-input-height: 44px;
+  --kn-button-height: 44px;
+  --kn-focus-outline: 2px solid var(--kn-accent);
+  --kn-focus-outline-offset: 2px;
+}
