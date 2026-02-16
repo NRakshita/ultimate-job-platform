@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KodNest Premium Build System — Design System</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body class="kn-page">
+  <!-- Top Bar -->
+  <header class="kn-topbar">
+    <span class="kn-topbar__project">Project Alpha</span>
+    <span class="kn-topbar__progress">Step 2 / 5</span>
+    <span class="kn-topbar__status kn-topbar__status--in-progress">In Progress</span>
+  </header>
+
+  <!-- Context Header -->
+  <section class="kn-context-header">
+    <h1 class="kn-context-header__headline">Define Your Requirements</h1>
+    <p class="kn-context-header__subtext">Provide clear inputs so the build can proceed accurately.</p>
+  </section>
+
+  <!-- Main Content -->
+  <main class="kn-main">
+    <div class="kn-workspace">
+      <div class="kn-card">
+        <h3 class="kn-card__title">Primary Workspace</h3>
+        <p class="kn-card__body">Main product interaction happens here. Clean cards, predictable components, no crowding.</p>
+        <div style="margin-top: var(--kn-space-md);">
+          <input type="text" class="kn-input" placeholder="Enter value" />
+        </div>
+      </div>
+    </div>
+
+    <aside class="kn-panel">
+      <p class="kn-panel__explanation">Describe what you want to build in a few sentences. Be specific about the core functionality.</p>
+      <pre class="kn-panel__prompt">Create a dashboard with user metrics, charts, and export functionality.</pre>
+      <div class="kn-panel__actions">
+        <button class="kn-btn kn-btn--primary kn-btn--panel">Copy</button>
+        <button class="kn-btn kn-btn--secondary kn-btn--panel">Build in Lovable</button>
+        <button class="kn-btn kn-btn--ghost kn-btn--panel">It Worked</button>
+        <button class="kn-btn kn-btn--ghost kn-btn--panel">Error</button>
+        <button class="kn-btn kn-btn--ghost kn-btn--panel">Add Screenshot</button>
+      </div>
+    </aside>
+  </main>
+
+  <!-- Proof Footer -->
+  <footer class="kn-proof-footer">
+    <label class="kn-proof-footer__item">
+      <input type="checkbox" class="kn-proof-footer__checkbox">
+      UI Built
+    </label>
+    <label class="kn-proof-footer__item">
+      <input type="checkbox" class="kn-proof-footer__checkbox">
+      Logic Working
+    </label>
+    <label class="kn-proof-footer__item">
+      <input type="checkbox" class="kn-proof-footer__checkbox">
+      Test Passed
+    </label>
+    <label class="kn-proof-footer__item">
+      <input type="checkbox" class="kn-proof-footer__checkbox">
+      Deployed
+    </label>
+  </footer>
+</body>
+</html>

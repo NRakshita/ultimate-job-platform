@@ -1,0 +1,59 @@
+/**
+ * KodNest Premium Build System — Design Tokens
+ * Calm, Intentional, Coherent, Confident
+ * Maximum 4 colors. Consistent spacing. No visual drift.
+ */
+
+:root {
+  /* ─── Color System (4 colors max) ─── */
+  --kn-color-bg: #F7F6F3;
+  --kn-color-text: #111111;
+  --kn-color-accent: #8B0000;
+  --kn-color-success: #5F7B6F;
+  --kn-color-warning: #9A7B4F;
+
+  /* Derived (for borders, focus) */
+  --kn-color-border: #E5E4E0;
+  --kn-color-border-focus: #8B0000;
+  --kn-color-text-muted: #4A4A4A;
+
+  /* ─── Typography ─── */
+  --kn-font-heading: "IBM Plex Serif", Georgia, "Times New Roman", serif;
+  --kn-font-body: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  --kn-size-heading-xl: 2.25rem;
+  --kn-size-heading-lg: 1.75rem;
+  --kn-size-heading-md: 1.25rem;
+  --kn-size-body: 1rem;
+  --kn-size-body-lg: 1.125rem;
+  --kn-size-caption: 0.875rem;
+
+  --kn-line-height-tight: 1.25;
+  --kn-line-height-body: 1.65;
+  --kn-line-height-loose: 1.8;
+
+  --kn-letter-spacing-heading: -0.02em;
+  --kn-letter-spacing-body: 0;
+
+  --kn-text-max-width: 720px;
+
+  /* ─── Spacing Scale (8, 16, 24, 40, 64) ─── */
+  --kn-space-xs: 8px;
+  --kn-space-sm: 16px;
+  --kn-space-md: 24px;
+  --kn-space-lg: 40px;
+  --kn-space-xl: 64px;
+
+  /* ─── Radius (consistent) ─── */
+  --kn-radius: 6px;
+
+  /* ─── Transitions ─── */
+  --kn-transition: 175ms ease-in-out;
+
+  /* ─── Layout ─── */
+  --kn-layout-primary-width: 70%;
+  --kn-layout-secondary-width: 30%;
+  --kn-layout-gap: var(--kn-space-md);
+  --kn-topbar-height: 56px;
+  --kn-footer-height: 80px;
+}

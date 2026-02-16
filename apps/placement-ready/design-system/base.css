@@ -1,0 +1,61 @@
+/**
+ * KodNest Premium Build System — Base Styles
+ * Clean foundation. No decorative noise.
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--kn-font-body);
+  font-size: var(--kn-size-body);
+  line-height: var(--kn-line-height-body);
+  color: var(--kn-color-text);
+  background-color: var(--kn-color-bg);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--kn-font-heading);
+  font-weight: 500;
+  line-height: var(--kn-line-height-tight);
+  letter-spacing: var(--kn-letter-spacing-heading);
+  margin: 0 0 var(--kn-space-sm);
+}
+
+h1 { font-size: var(--kn-size-heading-xl); }
+h2 { font-size: var(--kn-size-heading-lg); }
+h3 { font-size: var(--kn-size-heading-md); }
+
+p {
+  margin: 0 0 var(--kn-space-sm);
+  max-width: var(--kn-text-max-width);
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+.text-body-lg {
+  font-size: var(--kn-size-body-lg);
+  line-height: var(--kn-line-height-loose);
+}
+
+/* Focus state (accessibility) */
+:focus-visible {
+  outline: 2px solid var(--kn-color-border-focus);
+  outline-offset: 2px;
+}
